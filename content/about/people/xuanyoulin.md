@@ -28,7 +28,6 @@ At K12EDU, we have greatly benefited from the invaluable suggestions and constru
 
 ---
 
-<!-- GitHub Stats Side by Side -->
 <table>
   <tr>
     <td>
@@ -40,7 +39,6 @@ At K12EDU, we have greatly benefited from the invaluable suggestions and constru
   </tr>
 </table>
 
-<!-- GitHub Profile Trophy -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=TsukiSama9292&theme=gruvbox&row=1&column=7" alt="trophy" />
 </p>

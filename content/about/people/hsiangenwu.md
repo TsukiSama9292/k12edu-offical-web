@@ -21,7 +21,6 @@ date: "2025-05-23"
 
 ---
 
-<!-- GitHub Stats Side by Side -->
 <table>
   <tr>
     <td>
@@ -33,7 +32,6 @@ date: "2025-05-23"
   </tr>
 </table>
 
-<!-- GitHub Profile Trophy -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ian105102&theme=gruvbox&row=1&column=7" alt="trophy" />
 </p>

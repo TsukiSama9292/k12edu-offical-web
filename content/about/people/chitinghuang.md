@@ -27,7 +27,6 @@ date: "2025-05-23"
 
 ---
 
-<!-- GitHub Stats Side by Side -->
 <table>
   <tr>
     <td>
@@ -39,7 +38,6 @@ date: "2025-05-23"
   </tr>
 </table>
 
-<!-- GitHub Profile Trophy -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Baka8787&theme=gruvbox&row=1&column=7" alt="trophy" />
 </p>
@@ -69,7 +67,7 @@ Our mission: **Make learning fun, challenging, and rewarding!**
 | Category                    | Skills                                                            |
 | --------------------------- | ----------------------------------------------------------------- |
 | **Programming Languages**   | C++, Python,                                                      |
-| **Web Development**         | Django (Full-Stack), Vue.js (Front-End)                           |
+| **Web Development**         | Django                                                            |
 
 ---
 
