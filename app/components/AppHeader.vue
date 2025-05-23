@@ -1,79 +1,69 @@
 <template>
-  <v-app>
-    <!-- App Bar: add mt-4 for vertical offset and align-center for centering content -->
-    <v-app-bar app color="primary" dark class="d-flex align-center">
-      <!-- Logo: remove bottom margin, add right margin to move a bit left → tighter to content -->
-      <v-img
-        class="mr-4"
+  <v-app-bar
+    app
+    color="primary"
+    dark
+    class="px-0"
+    content-class="px-0"
+  >
+    <!-- 官方 Logo -->
+    <v-app-bar-title class="d-flex align-center justify-start px-0">
+      <img
+        src="@/assets/logo.png"
+        alt="Logo"
         height="40"
-        src="~/assets/logo.png"
-        contain
+        style="width: auto; display: block;"
       />
-
-      <!-- Navigation items: center horizontally and vertically, and enlarge text -->
-      <v-toolbar-items class="d-none d-md-flex mx-auto d-flex align-center">
-        <div v-for="item in items" :key="item.title" class="mx-3">
-          <v-menu offset-y open-on-hover>
-            <template #activator="{ props }">
-              <!-- Apply text-h6 for larger font size -->
-              <v-btn text class="text-h6" v-bind="props">
-                {{ item.title }}
-              </v-btn>
-            </template>
-            <v-list>
-              <v-list-item
-                v-for="sub in item.children"
-                :key="sub"
-                @click="$router.push(`/${item.title.toLowerCase()}/${sub.toLowerCase()}`)"
-              >
-                <v-list-item-title>{{ sub }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-menu>
-        </div>
-      </v-toolbar-items>
-
-      <v-spacer />
-
-      <v-app-bar-nav-icon class="d-flex d-md-none" @click="drawer = !drawer" />
-    </v-app-bar>
-
-    <!-- Mobile Drawer -->
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      temporary
-      right
+    </v-app-bar-title>
+    
+    <!-- 導航按鈕 -->
+    <div
+      class="d-none d-md-flex mx-auto align-center"
+      v-show="!drawer"
     >
-      <v-list>
-        <v-list-group
-          v-for="item in items"
-          :key="item.title"
-          v-model="item.open"
-          no-action
-        >
-          <template #activator>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </template>
-          <v-list-item
-            v-for="sub in item.children"
-            :key="sub"
-            @click="navigate(item.title, sub)"
-          >
-            <v-list-item-content>
-              <v-list-item-title>{{ sub }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list-group>
-      </v-list>
-    </v-navigation-drawer>
+      <v-btn
+        v-for="item in items"
+        :key="item"
+        class="mx-2"
+        color="white"
+        variant="tonal"
+        rounded="lg"
+        @click="navigate(item)"
+      >
+        {{ item }}
+      </v-btn>
+    </div>
 
-    <!-- Main content -->
-    <v-main>
-      <NuxtPage />
-    </v-main>
-  </v-app>
+    <v-spacer />
+    
+    <!-- 手機版導航欄位 -->
+    <v-app-bar-nav-icon
+      class="d-flex d-md-none"
+      @click="drawer = !drawer"
+    />
+  </v-app-bar>
+
+  <!-- 手機版導航抽屜 -->
+  <v-navigation-drawer
+    v-model="drawer"
+    app
+    temporary
+    right
+  >
+    <v-list>
+      <v-list-item
+        v-for="item in items"
+        :key="item"
+        @click="navigate(item)"
+      >
+        <v-list-item-content>
+          <v-list-item-title>{{ item }}</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+    </v-list>
+  </v-navigation-drawer>
 </template>
+
 
 <script setup lang="ts">
 import { ref } from 'vue'
@@ -82,22 +72,10 @@ import { useRouter } from 'vue-router'
 const drawer = ref(false)
 const router = useRouter()
 
-const items = ref([
-  { title: 'About', children: ['Teams', 'People', 'Labs'], open: false },
-  { title: 'Blogs', children: ['Competitions', 'Marketing', 'Updates'], open: false },
-  { title: 'Products', children: ['AI', 'Games', 'Courses'], open: false },
-  { title: 'Supports', children: ['Partners', 'Sponsors'], open: false },
-])
+const items = ref(['About', 'Blogs', 'Products', 'Supports'])
 
-function navigate(parent: string, sub: string) {
+function navigate(title: string) {
   drawer.value = false
-  router.push(`/${parent.toLowerCase()}/${sub.toLowerCase()}`)
+  router.push(`/${title.toLowerCase()}`)
 }
 </script>
-
-<style scoped>
-/* Ensure buttons remain white */
-.v-btn--text {
-  color: white;
-}
-</style>
