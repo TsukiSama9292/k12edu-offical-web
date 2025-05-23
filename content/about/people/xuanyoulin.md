@@ -3,8 +3,6 @@ title: "Xuan-You Lin (Chinese name: 林宣佑)"
 date: "2025-05-22"
 ---
 
-
-# Xuan-You Lin (Chinese name: 林宣佑)
 ### 🎓 *B.Eng. Student & Developer (AI, DevOps, Full-Stack)*  
 **Sep 2022 – Present**  
 + 👨‍🎓 B.Eng. in Computer Science and Information Engineering  
@@ -77,7 +75,7 @@ Our mission: **Make learning fun, challenging, and rewarding!**
 | **AI & ML**                 | LLM Post-Training, RAG, Prompt Engineering, PyTorch, Transformers |
 | **Containers & Automation** | Docker, Kubernetes (K3s, Rancher), GitHub Actions                 |
 | **Servers & Networking**    | Ubuntu, Proxmox VE, Rocky, Nginx, Cloudflare                      |
-| **Web Development**         | Django (Full-Stack), FastAPI (Back-End), Vue.js (Vuetify3)        |
+| **Web Development**         | Django (Full-Stack), FastAPI (Back-End), Vue.js (Front-End)       |
 
 ---
 

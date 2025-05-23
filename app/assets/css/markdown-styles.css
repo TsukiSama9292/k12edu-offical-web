@@ -1,0 +1,67 @@
+/* markdown-styles.css */
+.markdown-content {
+  line-height: 1.8;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.markdown-content p {
+  margin-bottom: 1em;
+  text-indent: 2em; /* 首行縮排 */
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  color: #666;
+  margin: 1em 0;
+  background-color: #f9f9f9;
+}
+
+/* 1. 讓表格邊框合併，避免雙線 */
+.markdown-content table {
+  border-collapse: collapse;           /* :contentReference[oaicite:0]{index=0} */
+  width: 100%;                         /* 若要表格寬度撐滿容器，可保留此行 */
+}
+
+/* 2. 為表格、表頭 (th) 及儲存格 (td) 設定邊框與內距 */
+.markdown-content table,
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid #525252;
+  padding: 0.5em 0.75em;               /* 建議加點內距，讓內容不貼邊 */
+}
+
+/* 3. （選用）微調表頭背景色與字重 */
+/* 新增：讓表格中的圖片自動撐滿欄位 */
+.markdown-content table td img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 讓置中段落裡的圖片撐滿寬度 */
+.markdown-content p[align="center"] img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

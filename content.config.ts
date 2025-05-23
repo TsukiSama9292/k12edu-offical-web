@@ -3,24 +3,20 @@ import { de } from 'vuetify/locale'
 
 export default defineContentConfig({
   collections: {
-    docs: defineCollection({
-      source: '**',
-      type: 'page'
-    }),
     aboutLabs: defineCollection({
-      source: 'about/labs',
+      source: 'about/labs/*.md',
       type: 'page'
     }),
     aboutPeople: defineCollection({
-      source: 'about/people',
+      source: 'about/people/*.md',
       type: 'page'
     }),
     aboutTeams: defineCollection({
-      source: 'about/teams',
+      source: 'about/teams/*.md',
       type: 'page'
     }),
     blogs: defineCollection({
-      source: 'blogs',
+      source: 'blogs/**/*.md',
       type: 'page'
     }),
   }

@@ -56,22 +56,23 @@ nuxt.config.ts                         # Nuxt 設定檔
 ```
 
 ```bash
-content/                               # Markdown 內容資料夾（供 @nuxt/content 使用）
+content/                            # Markdown 內容資料夾（供 @nuxt/content 使用）
 ├── about                           # 關於我們頁面內容
-│   ├── labs                       # 實驗室介紹
-│   ├── people                     # 團隊成員介紹
-│   └── teams                      # 團隊介紹
-│       └── original-team.md       # 原始團隊介紹 Markdown 文件
+│   ├── labs                        # 實驗室介紹
+│   ├── people                      # 團隊成員介紹
+│   │   └── xuanyoulin.md           # 團隊成員 Markdown 文件
+│   └── teams                       # 團隊介紹
+│       └── original-team.md        # 原始團隊介紹 Markdown 文件
 ├── blogs                           # 部落格/新聞文章內容
-│   ├── competitions               # 競賽相關文章
-│   ├── marketing                  # 行銷宣傳文章
-│   └── updates                    # 更新、系統公告
+│   ├── competitions                # 競賽相關文章
+│   ├── marketing                   # 行銷宣傳文章
+│   └── updates                     # 更新、系統公告
 ├── docs                            # 文件資料夾
-│   └── hello.md                   # 文件範例
+│   └── hello.md                    # 文件範例
 ├── products                        # 產品介紹（數位教育、遊戲、AI 工具）
-│   ├── ai                         # AI 相關產品內容
-│   ├── courses                    # 教學課程與教材內容
-│   └── games                      # 遊戲產品內容
+│   ├── ai                          # AI 相關產品內容
+│   ├── courses                     # 教學課程與教材內容
+│   └── games                       # 遊戲產品內容
 └── supports                        # 支援與合作內容
     ├── partners                    # 合作夥伴內容
     └── sponsors                    # 贊助商介紹內容

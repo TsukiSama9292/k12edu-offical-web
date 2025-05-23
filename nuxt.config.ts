@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     'vuetify-nuxt-module',
+    '@nuxt/content-theme-docs',
   ],
 
   ssr: true,
@@ -36,8 +37,9 @@ export default defineNuxtConfig({
       noExternal: ['vuetify'],
     },
   },
-
-  css: [],
+  css: [
+    '~/assets/css/markdown-styles.css'
+  ],
 
   vuetify: {
     moduleOptions: {
