@@ -20,8 +20,11 @@ export default defineNuxtConfig({
     '@nuxt/content-theme-docs',
   ],
 
-  ssr: true,
-
+  ssr: false,
+  nitro: {
+    // 直接套用 static preset，確保輸出不帶 server code
+    preset: 'static'
+  },
   // when enabling ssr option you need to disable inlineStyles and maybe devLogs
   features: {
     inlineStyles: false,
