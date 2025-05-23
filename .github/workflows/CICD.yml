@@ -29,11 +29,11 @@ jobs:
         run: npm run build
 
       - name: Copy CNAME file
-        run: echo 'www.k12edu.uk' > ./output/CNAME # 定義的網域名稱
+        run: echo 'www.k12edu.uk' > ./.output/CNAME # 定義的網域名稱
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./output  # Vue.js 默認的建置輸出目錄
+          publish_dir: ./.output  # Vue.js 默認的建置輸出目錄
           publish_branch: gh-pages
