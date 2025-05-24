@@ -1,6 +1,6 @@
 <template>
   <div>
-    labs
+    people
   </div>
 </template>
 

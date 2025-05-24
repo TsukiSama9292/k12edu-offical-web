@@ -1,13 +1,10 @@
-<script setup lang="ts">
-const route = useRoute()
-const slug = route.params.slug as string
-const { data: doc } = await useAsyncData(
-  `aboutTeams-${slug}`,
-  () => queryCollection('aboutTeams').path(`/about/teams/${slug}`).first()
-)
-</script>
-
 <template>
-  <h1>{{ doc?.title }}</h1>
-  <ContentRenderer :value="doc?.body" />
+  <MarkdownShow
+    collection-name="aboutTeams"
+    base-path="/about/teams"
+  />
 </template>
+
+<script setup lang="ts">
+import MarkdownShow from '~/components/MarkdownShow.vue'
+</script>

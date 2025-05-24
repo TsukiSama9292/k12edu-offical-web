@@ -1,6 +1,6 @@
 <template>
   <div>
-    labs
+    teams
   </div>
 </template>
 

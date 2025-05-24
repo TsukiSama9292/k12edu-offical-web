@@ -67,8 +67,6 @@ content/                            # Markdown 內容資料夾（供 @nuxt/conte
 │   ├── competitions                # 競賽相關文章
 │   ├── marketing                   # 行銷宣傳文章
 │   └── updates                     # 更新、系統公告
-├── docs                            # 文件資料夾
-│   └── hello.md                    # 文件範例
 ├── products                        # 產品介紹（數位教育、遊戲、AI 工具）
 │   ├── ai                          # AI 相關產品內容
 │   ├── courses                     # 教學課程與教材內容
