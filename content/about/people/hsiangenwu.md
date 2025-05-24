@@ -3,20 +3,20 @@ title: "HSIANG-EN WU (Chinese name: 吳享恩)"
 date: "2025-05-23"
 ---
 
-### 🎓 *B.Eng. Student & Developer (Digital Game)*  
-**Sep 2022 – Present**  
-+ 👨‍🎓 B.Eng. in Computer Science and Information Engineering  
-+ 🏫 National Ilan University (NIU), Taiwan  
-+ 📍 No. 1, Section 1, Shennong Rd, Yilan City, Yilan County 260, Taiwan  
+### 🎓 *工學士生及開發者（AI、DevOps、全端）*  
+**2022年9月 – 至今**  
++ 👨‍🎓 資訊工程學士（B.Eng. in Computer Science and Information Engineering）  
++ 🏫 國立宜蘭大學（NIU），台灣  
++ 📍 台灣宜蘭縣宜蘭市神農路一段1號 260  
 
-**Nov 2023 – Present**  
-+ 🧑‍💻 [K12EDU](https://github.com/k12edu). Developer (Digital Game) 
-+ 🥼 Computer Science RFID Lab (soon to be renamed Radar Lab), NIU  
-+ 🏆 1st Place – 2025 College of Electrical Engineering and Computer Science Capstone Research Achievement Competition, NIU
+**2023年11月 – 至今**  
++ 🧑‍💻 [K12EDU](https://github.com/k12edu) 團隊負責人 & 開發者（AI、DevOps、全端）  
++ 🥼 國立宜蘭大學資訊工程RFID實驗室（即將更名為雷達實驗室）  
++ 🏆 第一名 – 2025年國立宜蘭大學電機資訊學院專題研究成果競賽  
 
 ---
 
-## About Me
+## 關於我  
 ....
 
 ---
@@ -38,21 +38,21 @@ date: "2025-05-23"
 
 ---
 
-## 💼 Project
+## 💼 專案
 
-### [K12EDU](https://github.com/k12edu) – *Leader & Developer(AI, DevOps, Full-Stack)* 🚀  
-🎓 RFID Lab, Department of Computer Science and Information Engineering, National Ilan University | 2024 Capstone Project Team  
+### [K12EDU](https://github.com/k12edu) – *團隊負責人 & 開發者（AI、DevOps、全端）* 🚀  
+🎓 國立宜蘭大學資訊工程系 RFID 實驗室 | 2024 專題專案團隊  
 
-We are a four-member team dedicated to developing an **AI-integrated digital learning platform** that makes K-12 education more engaging and effective through gamification.
+我們是一支四人團隊，致力於開發 **結合 AI 的數位學習平台**，透過遊戲化讓 K–12 教育更加有趣且有效。
 
-- 🔗 [About the Organization](https://www.k12edu.uk)  
-- 🎮 [Digital Learning Game Platform](https://game.k12edu.uk) – browser-based games  
-- 🤖 [AI Learning Assistant](https://ai.k12edu.uk/) – integrated with web search and RAG technology  
-- 📝 [Teacher Question Upload Platform with AI](https://teacher.k12edu.uk/) – design educational content with AI assistance  
-- ⚖️ [Online Judge](https://judge.k12edu.uk/) – provide programming questions and verify the correctness of the program  
-- 🐧 [Linux Lab](https://linux-lab.k12edu.uk/#/) – hands-on development document for IT learners
+- 🔗 [關於組織](https://www.k12edu.uk)  
+- 🎮 [數位學習遊戲平台](https://game.k12edu.uk) – 基於瀏覽器的遊戲  
+- 🤖 [AI 學習助理](https://ai.k12edu.uk/) – 結合網路搜尋與 RAG 技術  
+- 📝 [教師題庫上傳平台（含 AI 協助）](https://teacher.k12edu.uk/)  
+- ⚖️ [線上評測系統](https://judge.k12edu.uk/) – 提供程式題目並驗證程式正確性  
+- 🐧 [Linux 實驗室](https://linux-lab.k12edu.uk/#/) – IT 學習者的實作文件  
 
-Our mission: **Make learning fun, challenging, and rewarding!**
+我們的使命：**讓學習變得有趣、具挑戰性且富有成就感！**
 
 ---
 
@@ -60,19 +60,19 @@ Our mission: **Make learning fun, challenging, and rewarding!**
 
 | Category                    | Skills                                                            |
 | --------------------------- | ----------------------------------------------------------------- |
-| **Programming Languages**   | C#, JavaScript, Python                                            |
-| **Digital Multimedia**      | Unity(Front-End)                                                  |
+| **程式語言**                  | C#、JavaScript、Python                                            |
+| **數位多媒體**                | Unity（前端）                                                 |
 
 ---
 
-## 🏆 Competition Record
+## 🏆 競賽紀錄
 
-| Year | Competition Name         | Role           | Award / Ranking |
-|------|--------------------------|----------------|-----------------|
-| 2025 | [College of Electrical Engineering and Computer Science Capstone Research Achievement Competition, NIU](https://raw.githubusercontent.com/TsukiSama9292/OpenData/refs/heads/main/images/Certificates_and_Diplomas/College_of_Electrical_Engineering_and_Computer_Science_Capstone_Project_Exhibition.png)   | Team Leader    | 1st Place       |
+| 年份 | 競賽名稱                                                                              | 角色         | 獎項／名次     |
+| ---- | ------------------------------------------------------------------------------------- | ------------ | -------------- |
+| 2025 | [宜蘭大學電機資訊學院專題研究成果競賽](https://raw.githubusercontent.com/TsukiSama9292/OpenData/refs/heads/main/images/Certificates_and_Diplomas/College_of_Electrical_Engineering_and_Computer_Science_Capstone_Project_Exhibition.png) | 團隊負責人   | 第一名         |
 
 
 ---
 
-## 💡 Interests  
-+ 🎨 Digital Multimedia
+## 💡 興趣  
++ 🎨 數位多媒體

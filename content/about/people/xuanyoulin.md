@@ -1,30 +1,30 @@
 ---
-title: "Xuan-You Lin (Chinese name: 林宣佑)"
+title: "林宣佑"
 date: "2025-05-22"
 ---
 
-### 🎓 *B.Eng. Student & Developer (AI, DevOps, Full-Stack)*  
-**Sep 2022 – Present**  
-+ 👨‍🎓 B.Eng. in Computer Science and Information Engineering  
-+ 🏫 National Ilan University (NIU), Taiwan  
-+ 📍 No. 1, Section 1, Shennong Rd, Yilan City, Yilan County 260, Taiwan  
+### 🎓 *工學士生及開發者（AI、DevOps、全端）*  
+**2022年9月 – 至今**  
++ 👨‍🎓 資訊工程學士（B.Eng. in Computer Science and Information Engineering）  
++ 🏫 國立宜蘭大學（NIU），台灣  
++ 📍 台灣宜蘭縣宜蘭市神農路一段1號 260  
 
-**Nov 2023 – Present**  
-+ 🧑‍💻 [K12EDU](https://github.com/k12edu). Team Leader & Developer (AI, DevOps, Full-Stack)  
-+ 🥼 Computer Science RFID Lab (soon to be renamed Radar Lab), NIU  
-+ 🏆 1st Place – 2025 College of Electrical Engineering and Computer Science Capstone Research Achievement Competition, NIU
+**2023年11月 – 至今**  
++ 🧑‍💻 [K12EDU](https://github.com/k12edu) 團隊負責人 & 開發者（AI、DevOps、全端）  
++ 🥼 國立宜蘭大學資訊工程RFID實驗室（即將更名為雷達實驗室）  
++ 🏆 第一名 – 2025年國立宜蘭大學電機資訊學院專題研究成果競賽  
 
-**Feb 2025 – Present**  
-+ 🧠 AI Developer at [LaplaceAI](https://laplaceai.co/)
+**2025年2月 – 至今**  
++ 🧠 AI開發者，參與於 [LaplaceAI](https://laplaceai.co/)  
 
 ---
 
-## About Me
-I am an innovative third-year Computer Science and Information Engineering student at National Ilan University, with a passion for integrating artificial intelligence into digital learning games and pursuing cutting-edge research. Since February 2025, I have been working as an AI Developer at LaplaceAI, where I focus on developing AI agents and exploring frontier research topics. In November 2023, I took the lead in founding K12EDU, whose mission is to make learning fun, challenging, and rewarding. Through K12EDU, I have overseen the development of a large-scale smart education platform alongside a talented team that includes a Unity game design engineer, a back-end game logic API engineer, and two full-stack engineers—including myself.
+## 關於我  
+我目前是國立宜蘭大學資訊工程系三年級學生，熱衷將人工智慧應用於數位學習遊戲並追求前沿研究。自2025年2月起，我在 LaplaceAI 擔任 AI 開發者，專注於 AI 代理人開發與前沿研究探索。2023年11月，我創立並領導了 K12EDU，旨在讓學習變得有趣、具挑戰性且富有成就感。透過 K12EDU，我與團隊（包括 Unity 遊戲設計工程師、後端遊戲邏輯 API 工程師及兩位全端工程師）共同打造大型智慧教育平台。
 
-My responsibilities span AI development, DevOps, full-stack engineering, server system architecture design, CI/CD pipeline implementation, technical research, backend and server infrastructure management, cybersecurity, and overall operations—all of which I manage directly. Under my leadership, our 2025 capstone project earned first place. I bring strong expertise in AI agent development, prompt engineering, system design, server architecture, Unity integration with APIs and web servers, container orchestration, and full-stack web frameworks.
+我的職責涵蓋 AI 開發、DevOps、全端工程、伺服器系統架構設計、CI/CD 管線實作、技術研究、後端與伺服器基礎設施管理、資安以及整體營運—由我親自管理。我們的 2025 年學院專題研究成果競賽榮獲第一名。我擁有 AI 代理人開發、提示工程、系統設計、伺服器架構、Unity 與 API/Web Server 整合、容器編排及全端網頁框架等豐富經驗。
 
-At K12EDU, we have greatly benefited from the invaluable suggestions and constructive feedback provided by supervising professors, lab seniors, and volunteer testers. Their insights have played a crucial role in refining our platform and shaping our design and development strategies, and I am deeply grateful for their support.
+在 K12EDU 的發展過程中，我非常感謝指導教授、學長姐與志願測試者的寶貴建議與建設性回饋，他們的洞見對平台優化及設計與開發策略的形成至關重要。
 
 ---
 
@@ -45,50 +45,48 @@ At K12EDU, we have greatly benefited from the invaluable suggestions and constru
 
 ---
 
-## 💼 Project
+## 💼 專案
 
-### [K12EDU](https://github.com/k12edu) – *Leader & Developer(AI, DevOps, Full-Stack)* 🚀  
-🎓 RFID Lab, Department of Computer Science and Information Engineering, National Ilan University | 2024 Capstone Project Team  
+### [K12EDU](https://github.com/k12edu) – *團隊負責人 & 開發者（AI、DevOps、全端）* 🚀  
+🎓 國立宜蘭大學資訊工程系 RFID 實驗室 | 2024 專題專案團隊  
 
-We are a four-member team dedicated to developing an **AI-integrated digital learning platform** that makes K-12 education more engaging and effective through gamification.
+我們是一支四人團隊，致力於開發 **結合 AI 的數位學習平台**，透過遊戲化讓 K–12 教育更加有趣且有效。
 
-- 🔗 [About the Organization](https://www.k12edu.uk)  
-- 🎮 [Digital Learning Game Platform](https://game.k12edu.uk) – browser-based games  
-- 🤖 [AI Learning Assistant](https://ai.k12edu.uk/) – integrated with web search and RAG technology  
-- 📝 [Teacher Question Upload Platform with AI](https://teacher.k12edu.uk/) – design educational content with AI assistance  
-- ⚖️ [Online Judge](https://judge.k12edu.uk/) – provide programming questions and verify the correctness of the program  
-- 🐧 [Linux Lab](https://linux-lab.k12edu.uk/#/) – hands-on development document for IT learners
+- 🔗 [關於組織](https://www.k12edu.uk)  
+- 🎮 [數位學習遊戲平台](https://game.k12edu.uk) – 基於瀏覽器的遊戲  
+- 🤖 [AI 學習助理](https://ai.k12edu.uk/) – 結合網路搜尋與 RAG 技術  
+- 📝 [教師題庫上傳平台（含 AI 協助）](https://teacher.k12edu.uk/)  
+- ⚖️ [線上評測系統](https://judge.k12edu.uk/) – 提供程式題目並驗證程式正確性  
+- 🐧 [Linux 實驗室](https://linux-lab.k12edu.uk/#/) – IT 學習者的實作文件  
 
-Our mission: **Make learning fun, challenging, and rewarding!**
+我們的使命：**讓學習變得有趣、具挑戰性且富有成就感！**
 
-### [LaplaceAI-Lab](https://github.com/LaplaceAI-Lab) – *AI Developer* 🚀
-
----
-
-## 🛠️ Technical Skills
-
-| Category                    | Skills                                                            |
-| --------------------------- | ----------------------------------------------------------------- |
-| **Programming Languages**   | Python, Java, C++, JavaScript                                     |
-| **AI & ML**                 | LLM Post-Training, RAG, Prompt Engineering, PyTorch, Transformers |
-| **Containers & Automation** | Docker, Kubernetes (K3s, Rancher), GitHub Actions                 |
-| **Servers & Networking**    | Ubuntu, Proxmox VE, Rocky, Nginx, Cloudflare                      |
-| **Web Development**         | Django (Full-Stack), FastAPI (Back-End), Vue.js (Front-End)       |
+### [LaplaceAI-Lab](https://github.com/LaplaceAI-Lab) – *AI 開發者* 🚀
 
 ---
 
+## 🛠️ 技術技能
 
-## 🏆 Competition Record
-
-| Year | Competition Name         | Role           | Award / Ranking |
-|------|--------------------------|----------------|-----------------|
-| 2025 | [College of Electrical Engineering and Computer Science Capstone Research Achievement Competition, NIU](https://raw.githubusercontent.com/TsukiSama9292/OpenData/refs/heads/main/images/Certificates_and_Diplomas/College_of_Electrical_Engineering_and_Computer_Science_Capstone_Project_Exhibition.png)   | Team Leader    | 1st Place       |
-
+| 類別                       | 技能                                                             |
+| -------------------------- | ---------------------------------------------------------------- |
+| **程式語言**               | Python、Java、C++、JavaScript                                     |
+| **AI 與機器學習**          | LLM 微調、RAG、提示工程、PyTorch、Transformers                   |
+| **容器與自動化**           | Docker、Kubernetes（K3s、Rancher）、GitHub Actions               |
+| **伺服器與網路**           | Ubuntu、Proxmox VE、Rocky、Nginx、Cloudflare                      |
+| **網頁開發**               | Django（全端）、FastAPI（後端）、Vue.js（前端）                  |
 
 ---
 
-## 💡 Interests  
-+ 🎯 Agentic AI    
-+ 🧠 Deep Learning  
-+ 🌐 DevOps 
-+ ☁️ Cloud Storage / Cloud Computing
+## 🏆 競賽紀錄
+
+| 年份 | 競賽名稱                                                                              | 角色         | 獎項／名次     |
+| ---- | ------------------------------------------------------------------------------------- | ------------ | -------------- |
+| 2025 | [宜蘭大學電機資訊學院專題研究成果競賽](https://raw.githubusercontent.com/TsukiSama9292/OpenData/refs/heads/main/images/Certificates_and_Diplomas/College_of_Electrical_Engineering_and_Computer_Science_Capstone_Project_Exhibition.png) | 團隊負責人   | 第一名         |
+
+---
+
+## 💡 興趣  
++ 🎯 代理式 AI  
++ 🧠 深度學習  
++ 🌐 DevOps  
++ ☁️ 雲端儲存／雲端運算  

@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     'vuetify-nuxt-module',
     '@nuxt/content-theme-docs',
   ],
-
+  pages: true,
   ssr: false,
   nitro: {
     // 直接套用 static preset，確保輸出不帶 server code

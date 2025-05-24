@@ -7,7 +7,11 @@
     content-class="px-0"
   >
     <!-- 官方 Logo -->
-    <v-app-bar-title class="d-flex align-center justify-start px-0">
+    <v-app-bar-title
+      class="d-flex align-center justify-start px-0"
+      style="cursor: pointer"
+      @click="$router.push('/')"
+    >
       <img
         src="@/assets/logo.png"
         alt="Logo"
@@ -27,7 +31,7 @@
         class="mx-2"
         color="white"
         variant="tonal"
-        rounded="lg"
+        rounded="xl"
         @click="navigate(item)"
       >
         {{ item }}
