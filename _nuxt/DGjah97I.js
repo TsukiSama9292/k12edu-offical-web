@@ -1,1 +1,0 @@
-import{_ as n,c as a,e as c,P as s,o,f as _}from"./DpbRF8pG.js";const r={},u={key:0};function p(e,f){const t=_;return(e._.provides[s]||e.$route).path==="/about"?(o(),a("div",u," About Page Content ")):(o(),c(t,{key:1}))}const d=n(r,[["render",p]]);export{d as default};
