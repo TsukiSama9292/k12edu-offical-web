@@ -3,24 +3,26 @@ title: "K12EDU 原始團隊"
 date: "2025-05-24"
 ---
 
-### 團隊成員
+## **林宣佑**
+- 職稱：AI/DevOps/全端/運維工程師
+- 成員介紹: [林宣佑](/about/people/xuanyoulin)
+- 個人網站: [網站連結](https://tsukisama9292.github.io/blog/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/xuan-you-lin-tsukisama9292/)
+- Github: [TsukiSama9292](https://github.com/TsukiSama9292)
+## **吳享恩**
+- 職稱：遊戲客戶端工程師
+- 成員介紹: [吳享恩](/about/people/hsiangenwu)
+- Github: [ian105102](https://github.com/ian105102)
+## **陳柏豪**
+- 職稱：全端工程師
+- 成員介紹: [陳柏豪](/about/people/pohaochen)
+- Github: [Howpig2003](https://github.com/Howpig2003)
+## **黃啟庭**
+- 職稱：後端工程師
+- 成員介紹: [黃啟庭](/about/people/chitinghuang)
+- Github: [baka8787](https://github.com/baka8787)
 
-- **[林宣佑](/about/people/xuanyoulin)**
-    - 職稱：AI/DevOps/全端/運維工程師
-    - 個人網站: [網站連結](https://tsukisama9292.github.io/blog/)
-    - LinkedIn: [LinkedIn](https://www.linkedin.com/in/xuan-you-lin-tsukisama9292/)
-    - Github: [TsukiSama9292](https://github.com/TsukiSama9292)
-- **[吳享恩](/about/people/hsiangenwu)**
-    - 職稱：遊戲客戶端工程師
-    - Github: [ian105102](https://github.com/ian105102)
-- **[陳柏豪](/about/people/pohaochen)**
-    - 職稱：全端工程師
-    - Github: [Howpig2003](https://github.com/Howpig2003)
-- **[黃啟庭](/about/people/chitinghuang)**
-    - 職稱：後端工程師
-    - Github: [baka8787](https://github.com/baka8787)
-
-### 專案貢獻表
+## 專案貢獻表
 
 | 姓名   | 主要開發項目         | 工作項目                                 | 全專案貢獻比例 |
 |-------|---------------------|------------------------------------------|----------------|
