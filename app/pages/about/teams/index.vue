@@ -12,7 +12,7 @@ const pageTitle = '實驗室'
 
 const links = [
   {
-    title: '原始團隊',
+    title: '原始團隊 ( 2023.11 ~ Now )',
     to: '/about/teams/original',
     icon: 'mdi-school',
     desc: '四人組成，專注於教育與數位科技的結合',

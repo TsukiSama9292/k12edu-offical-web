@@ -1,23 +1,32 @@
 ---
-title: "K12EDU 原始團隊"
+title: "K12EDU 原始團隊 ( 2023.11 ~ Now )"
 date: "2025-05-24"
 ---
 
-## **林宣佑**
+## 學校與實驗室
+- **學校**: [國立宜蘭大學（National Ilan University, NIU）](https://www.niu.edu.tw/)
+- **實驗室**: [資訊工程學系 RFID 實驗室（即將更名為 Radar 實驗室）](/about/labs/rfid)
+
+## 團隊成員
+
+### **林宣佑**
 - 職稱：AI/DevOps/全端/運維工程師
 - 成員介紹: [林宣佑](/about/people/xuanyoulin)
 - 個人網站: [網站連結](https://tsukisama9292.github.io/blog/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/xuan-you-lin-tsukisama9292/)
 - Github: [TsukiSama9292](https://github.com/TsukiSama9292)
-## **吳享恩**
+
+### **吳享恩**
 - 職稱：遊戲客戶端工程師
 - 成員介紹: [吳享恩](/about/people/hsiangenwu)
 - Github: [ian105102](https://github.com/ian105102)
-## **陳柏豪**
+
+### **陳柏豪**
 - 職稱：全端工程師
 - 成員介紹: [陳柏豪](/about/people/pohaochen)
 - Github: [Howpig2003](https://github.com/Howpig2003)
-## **黃啟庭**
+
+### **黃啟庭**
 - 職稱：後端工程師
 - 成員介紹: [黃啟庭](/about/people/chitinghuang)
 - Github: [baka8787](https://github.com/baka8787)
