@@ -1,90 +1,131 @@
 <template>
-  <v-container class="fill-height" max-width="900">
-    <div>
-      <v-img
-        class="mb-4"
-        height="150"
-        src="~/assets/logo.png"
-      />
-
-      <div class="mb-8 text-center">
-        <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-        <h1 class="text-h2 font-weight-bold">K12EDU</h1>
-      </div>
-
-      <v-row>
-        <v-col cols="12">
-          <v-card
-            class="py-4"
-            color="surface-variant"
-            image="https://cdn.vuetifyjs.com/docs/images/one/create/feature.png"
-            prepend-icon="mdi-rocket-launch-outline"
-            rounded="lg"
-            variant="tonal"
-          >
-            <template #image>
-              <v-img position="top right" />
-            </template>
-
-            <template #title>
-              <h2 class="text-h5 font-weight-bold">
-                Get started
-              </h2>
-            </template>
-
-            <template #subtitle>
-              <div class="text-subtitle-1">
-                Change this page by updating <v-kbd>{{ `<HelloWorld />` }}</v-kbd> in <v-kbd>components/HelloWorld.vue</v-kbd>.
-              </div>
-            </template>
-          </v-card>
-        </v-col>
-
-        <v-col v-for="link in links" :key="link.href" cols="6">
-          <v-card
-            append-icon="mdi-open-in-new"
-            class="py-4"
-            color="surface-variant"
-            :href="link.href"
-            :prepend-icon="link.icon"
-            rel="noopener noreferrer"
-            rounded="lg"
-            :subtitle="link.subtitle"
-            target="_blank"
-            :title="link.title"
-            variant="tonal"
+  <v-container fluid class="pa-0">
+    <!-- Page1 -->
+    <v-sheet
+      height="auto"
+      class="d-flex align-center justify-center pa-12"
+    >
+      <v-row align="center" justify="center" class="text-center">
+        <v-col cols="12" md="8">
+          <v-img
+            src="/logo.png"
+            max-width="200"
+            class="mx-auto mb-6"
           />
+          <h1 class="text-h2 font-weight-bold mb-2">K12EDU</h1>
+          <p class="text-h5">讓學習變得有趣、有挑戰性、有益！</p>
         </v-col>
       </v-row>
-    </div>
+    </v-sheet>
+    <v-sheet class="text-center">
+      <v-btn
+        color="primary"
+        href="https://discord.gg/dFf4cG33dT"
+        target="_blank"
+        class="mx-2"
+        size="x-large"
+        font-weight="font-weight-bold"
+        rounded="xl"
+      >
+        加入我們的 Discord
+      </v-btn>
+      <v-btn
+        color="secondary"
+        href="https://game.k12edu.com"
+        target="_blank"
+        class="mx-2"
+        size="x-large"
+        font-weight="font-weight-bold"
+        rounded="xl"
+      >
+        免費開始遊戲
+      </v-btn>
+    </v-sheet>
+    
+    <!-- 間隔(透明) -->
+    <v-sheet
+      height="80px"
+      class="grey lighten-4"
+      elevation="0"
+    ></v-sheet>
+    
+    <!-- Page2: Services Carousel Section -->
+    <v-sheet class="py-12">
+      <v-row align="center" justify="center">
+        <v-col cols="12" md="10">
+          <h2 class="text-h4 font-weight-bold mb-6 text-center">我們的服務</h2>
+          <div class="service-carousel mx-auto">
+            <v-carousel
+              hide-delimiter-background
+              cycle
+              continuous
+              show-arrows-on-hover
+            >
+              <v-carousel-item
+                v-for="(slide, i) in slides"
+                :key="i"
+              >
+                <v-img
+                  :src="slide.src"
+                  class="fill-height"
+                  gradient="to bottom, rgba(0,0,0,.4), rgba(0,0,0,.7)"
+                >
+                  <v-row
+                    class="fill-height"
+                    align="center"
+                    justify="center"
+                  >
+                    <h3 class="white--text font-weight-bold text-h4">{{ slide.title }}</h3>
+                  </v-row>
+                </v-img>
+              </v-carousel-item>
+            </v-carousel>
+          </div>
+        </v-col>
+      </v-row>
+    </v-sheet>
+
+    
+    <!-- Page3: YouTube Embed Section -->
+    <v-sheet class="py-12">
+      <v-row align="center" justify="center">
+          <iframe
+            src="https://www.youtube.com/embed/qR2zTcbmtkU?si=wjzhk3Kd_oMJjvIB"
+            title="K12EDU 介紹影片"
+            width="900" height="506.25"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+          ></iframe>
+      </v-row>
+    </v-sheet>
+    
   </v-container>
 </template>
 
-<script setup>
-  const links = [
-    {
-      href: 'https://vuetifyjs.com/',
-      icon: 'mdi-text-box-outline',
-      subtitle: 'Learn about all things Vuetify in our documentation.',
-      title: 'Documentation',
-    },
-    {
-      href: 'https://vuetifyjs.com/introduction/why-vuetify/#feature-guides',
-      icon: 'mdi-star-circle-outline',
-      subtitle: 'Explore available framework Features.',
-      title: 'Features',
-    },
-    {
-      href: 'https://vuetifyjs.com/components/all',
-      icon: 'mdi-widgets-outline',
-      subtitle: 'Discover components in the API Explorer.',
-      title: 'Components',
-    },
-    {
-      href: 'https://discord.vuetifyjs.com',
-      icon: 'mdi-account-group-outline',
-      subtitle: 'Connect with Vuetify developers.',
-      title: 'Community',
-    },
-  ]
+<script setup lang="ts">
+import { ref } from 'vue'
+
+// 路徑從 public 資料夾根目錄開始
+const slides = ref([
+  { src: '/service1.png', title: '數位學習教育遊戲' },
+  { src: '/service2.png', title: 'AI 學習助理' },
+  { src: '/service3.png', title: '教師管理網站' },
+  { src: '/service4.png', title: '線上程式解題網站' },
+])
 </script>
+
+
+<style scoped>
+/* 限制寬度為視窗 60%，並保持 16:9 比例 */
+.service-carousel {
+  max-width: 60vw;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+/* 讓 carousel 滿版顯示父容器 */
+.service-carousel .v-carousel {
+  height: 100% !important;
+}
+</style>
