@@ -1,6 +1,5 @@
 <template>
   <v-container fluid class="pa-0">
-    <!-- Page1 -->
     <v-sheet
       height="auto"
       class="d-flex align-center justify-center pa-12"
@@ -14,42 +13,37 @@
           />
           <h1 class="text-h2 font-weight-bold mb-2">K12EDU</h1>
           <p class="text-h5">讓學習變得有趣、有挑戰性、有益！</p>
+          
+          <v-btn
+            color="primary"
+            href="https://discord.gg/dFf4cG33dT"
+            target="_blank"
+            class="mx-2 font-weight-bold my-4"
+            size="x-large"
+            rounded="xl"
+          >
+            加入 Discord 社群
+          </v-btn>
+          <v-btn
+            color="secondary"
+            href="https://game.k12edu.com"
+            target="_blank"
+            class="mx-2 font-weight-bold my-4"
+            size="x-large"
+            rounded="xl"
+          >
+            免費開始遊戲
+          </v-btn>
         </v-col>
       </v-row>
     </v-sheet>
-    <v-sheet class="text-center">
-      <v-btn
-        color="primary"
-        href="https://discord.gg/dFf4cG33dT"
-        target="_blank"
-        class="mx-2"
-        size="x-large"
-        font-weight="font-weight-bold"
-        rounded="xl"
-      >
-        加入我們的 Discord
-      </v-btn>
-      <v-btn
-        color="secondary"
-        href="https://game.k12edu.com"
-        target="_blank"
-        class="mx-2"
-        size="x-large"
-        font-weight="font-weight-bold"
-        rounded="xl"
-      >
-        免費開始遊戲
-      </v-btn>
-    </v-sheet>
     
-    <!-- 間隔(透明) -->
     <v-sheet
-      height="80px"
+      height="50px"
       class="grey lighten-4"
       elevation="0"
     ></v-sheet>
     
-    <!-- Page2: Services Carousel Section -->
     <v-sheet class="py-12">
       <v-row align="center" justify="center">
         <v-col cols="12" md="10">
@@ -84,11 +78,17 @@
         </v-col>
       </v-row>
     </v-sheet>
-
     
-    <!-- Page3: YouTube Embed Section -->
+    <v-sheet
+      height="80px"
+      class="grey lighten-4"
+      elevation="0"
+    ></v-sheet>
+    
     <v-sheet class="py-12">
-      <v-row align="center" justify="center">
+      <v-row align="center" justify="center" class="text-center">
+        <v-col cols="12" md="10">
+          <h2 class="text-h4 font-weight-bold mb-6 text-center">介紹影片</h2>
           <iframe
             src="https://www.youtube.com/embed/qR2zTcbmtkU?si=wjzhk3Kd_oMJjvIB"
             title="K12EDU 介紹影片"
@@ -98,6 +98,7 @@
             referrerpolicy="strict-origin-when-cross-origin" 
             allowfullscreen
           ></iframe>
+        </v-col>
       </v-row>
     </v-sheet>
     
