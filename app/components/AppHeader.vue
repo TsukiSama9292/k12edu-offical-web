@@ -19,10 +19,11 @@
         style="width: auto; display: block;"
       />
     </v-app-bar-title>
-    
+
     <!-- 導航按鈕 -->
     <div
-      class="d-none d-md-flex mx-auto align-center"
+      class="d-none d-md-flex align-center"
+      style="position: absolute; left: 50%; transform: translateX(-50%);"
       v-show="!drawer"
     >
       <v-btn
@@ -81,7 +82,8 @@ const items = {
   '關於': 'about',
   '文章': 'blogs',
   '產品': 'products',
-  '協作': 'supports'
+  '協作': 'supports',
+  '聯絡': 'contact'
 }
 
 // 點擊時使用路由 path
