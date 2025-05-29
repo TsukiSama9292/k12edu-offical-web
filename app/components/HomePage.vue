@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="pa-0">
     <v-sheet
-      height="auto"
+      height="100vh"
       class="d-flex align-center justify-center pa-12"
     >
       <v-row align="center" justify="center" class="text-center">
@@ -37,14 +37,8 @@
         </v-col>
       </v-row>
     </v-sheet>
-    
-    <v-sheet
-      height="50px"
-      class="grey lighten-4"
-      elevation="0"
-    ></v-sheet>
-    
-    <v-sheet class="py-12">
+
+    <v-sheet height="100vh">
       <v-row align="center" justify="center">
         <v-col cols="12" md="10">
           <h2 class="text-h4 font-weight-bold mb-6 text-center">我們的服務</h2>
@@ -79,29 +73,23 @@
       </v-row>
     </v-sheet>
     
-    <v-sheet
-      height="80px"
-      class="grey lighten-4"
-      elevation="0"
-    ></v-sheet>
-    
-    <v-sheet class="py-12">
+    <v-sheet height="100vh">
       <v-row align="center" justify="center" class="text-center">
         <v-col cols="12" md="10">
           <h2 class="text-h4 font-weight-bold mb-6 text-center">介紹影片</h2>
-          <iframe
-            src="https://www.youtube.com/embed/qR2zTcbmtkU?si=wjzhk3Kd_oMJjvIB"
-            title="K12EDU 介紹影片"
-            width="900" height="506.25"
-            frameborder="0"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen
-          ></iframe>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/qR2zTcbmtkU?si=wjzhk3Kd_oMJjvIB"
+              title="K12EDU 介紹影片"
+              frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </v-col>
       </v-row>
     </v-sheet>
-    
   </v-container>
 </template>
 
@@ -128,5 +116,20 @@ const slides = ref([
 /* 讓 carousel 滿版顯示父容器 */
 .service-carousel .v-carousel {
   height: 100% !important;
+}
+.video-wrapper {
+  position: relative;
+  /* 16:9 高寬比：9 / 16 = 56.25% */
+  padding-bottom: 56.25%;  /* 定義容器高度 */
+  height: 0;               /* 高度由 padding-bottom 決定 */
+  overflow: hidden;
+}
+.video-wrapper iframe {
+  position: absolute;
+  /* 左右邊界都設 0，元素寬度小於容器時可居中 */
+  left: 0; right: 0;
+  margin: 0 auto;
+  width: 80%;                       
+  height: 80%;
 }
 </style>
