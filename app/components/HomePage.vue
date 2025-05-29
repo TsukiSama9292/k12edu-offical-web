@@ -12,7 +12,7 @@
             class="mx-auto mb-6 mt-n6"
           />
           <h1 class="text-h2 font-weight-bold mb-2 lxgw-wenkai-mono-tc-bold">K12EDU</h1>
-          <p class="text-h3 font-weight-bold lxgw-wenkai-mono-tc-regular">讓學習變得有趣、有挑戰性、有益！</p>
+          <p class="text-h3 font-weight-bold lxgw-wenkai-mono-tc-regular">讓學習變得有趣、有效率！</p>
           
           <v-btn
             color="primary"
