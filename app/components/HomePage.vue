@@ -9,16 +9,16 @@
           <v-img
             src="/logo.png"
             max-width="200"
-            class="mx-auto mb-6"
+            class="mx-auto mb-6 mt-n6"
           />
-          <h1 class="text-h2 font-weight-bold mb-2">K12EDU</h1>
-          <p class="text-h5">讓學習變得有趣、有挑戰性、有益！</p>
+          <h1 class="text-h2 font-weight-bold mb-2 lxgw-wenkai-mono-tc-bold">K12EDU</h1>
+          <p class="text-h3 font-weight-bold lxgw-wenkai-mono-tc-regular">讓學習變得有趣、有挑戰性、有益！</p>
           
           <v-btn
             color="primary"
             href="https://discord.gg/dFf4cG33dT"
             target="_blank"
-            class="mx-2 font-weight-bold my-4"
+            class="mx-2 font-weight-bold my-4 lxgw-wenkai-mono-tc-light"
             size="x-large"
             rounded="xl"
           >
@@ -28,7 +28,7 @@
             color="deep-purple"
             href="https://game.k12edu.com"
             target="_blank"
-            class="mx-2 font-weight-bold my-4"
+            class="mx-2 font-weight-bold my-4 lxgw-wenkai-mono-tc-light"
             size="x-large"
             rounded="xl"
           >
@@ -41,7 +41,7 @@
     <v-sheet height="100vh">
       <v-row align="center" justify="center">
         <v-col cols="12" md="10">
-          <h2 class="text-h4 font-weight-bold mb-6 text-center">我們的服務</h2>
+          <h2 class="text-h3 font-weight-bold mb-6 text-center lxgw-wenkai-mono-tc-bold">產品展示</h2>
           <div class="service-carousel mx-auto">
             <v-carousel
               hide-delimiter-background
@@ -63,7 +63,7 @@
                     align="center"
                     justify="center"
                   >
-                    <h3 class="white--text font-weight-bold text-h4">{{ slide.title }}</h3>
+                    <h3 class="white--text font-weight-bold text-h4 lxgw-wenkai-mono-tc-regular">{{ slide.title }}</h3>
                   </v-row>
                 </v-img>
               </v-carousel-item>
@@ -76,7 +76,7 @@
     <v-sheet height="100vh">
       <v-row align="center" justify="center" class="text-center">
         <v-col cols="12" md="10">
-          <h2 class="text-h4 font-weight-bold mb-6 text-center">介紹影片</h2>
+          <h2 class="text-h3 font-weight-bold mb-6 text-center lxgw-wenkai-mono-tc-bold">介紹影片</h2>
           <div class="video-wrapper">
             <iframe
               src="https://www.youtube.com/embed/qR2zTcbmtkU?si=wjzhk3Kd_oMJjvIB"
