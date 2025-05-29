@@ -22,10 +22,10 @@
             size="x-large"
             rounded="xl"
           >
-            加入 Discord 社群
+            Discord 社群
           </v-btn>
           <v-btn
-            color="secondary"
+            color="deep-purple"
             href="https://game.k12edu.com"
             target="_blank"
             class="mx-2 font-weight-bold my-4"
