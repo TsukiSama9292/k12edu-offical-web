@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{c as o,o as t}from"./CWn9R7KG.js";const r={};function c(n,s){return t(),o("div",null," Supports Page Content ")}const _=e(r,[["render",c]]);export{_ as default};
