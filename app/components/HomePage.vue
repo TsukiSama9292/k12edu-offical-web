@@ -38,40 +38,54 @@
       </v-row>
     </v-sheet>
 
-    <v-sheet height="100vh">
-      <v-row align="center" justify="center">
-        <v-col cols="12" md="10">
-          <h2 class="text-h3 font-weight-bold mb-6 text-center lxgw-wenkai-mono-tc-bold">產品展示</h2>
-          <div class="service-carousel mx-auto">
-            <v-carousel
-              hide-delimiter-background
-              cycle
-              continuous
-              show-arrows-on-hover
+<v-sheet height="100vh">
+  <v-row align="center" justify="center">
+    <v-col cols="12" md="10">
+      <h2 class="text-h3 font-weight-bold mb-6 text-center lxgw-wenkai-mono-tc-bold">
+        產品展示
+      </h2>
+      <div class="service-carousel mx-auto">
+        <v-carousel
+          hide-delimiter-background
+          cycle
+          continuous
+          show-arrows-on-hover
+        >
+          <v-carousel-item
+            v-for="(slide, i) in slides"
+            :key="i"
+          >
+            <v-img
+              :src="slide.src"
+              gradient="to bottom, rgba(0,0,0,.4), rgba(0,0,0,.7)"
             >
-              <v-carousel-item
-                v-for="(slide, i) in slides"
-                :key="i"
-              >
-                <v-img
-                  :src="slide.src"
-                  class="fill-height"
-                  gradient="to bottom, rgba(0,0,0,.4), rgba(0,0,0,.7)"
+              <template v-slot:default>
+                <v-container
+                  class="fill-height d-flex flex-column align-center justify-center text-center"
                 >
-                  <v-row
-                    class="fill-height"
-                    align="center"
-                    justify="center"
+                  <h3 class="white--text font-weight-bold text-h4 lxgw-wenkai-mono-tc-regular">
+                    {{ slide.title }}
+                  </h3>
+                  <v-btn 
+                    class="mt-4 font-weight-bold my-4 lxgw-wenkai-mono-tc-light"
+                    size="large"
+                    color="primary"
+                    href="slide.url"
+                    target="_blank"
+                    rounded="xl"
                   >
-                    <h3 class="white--text font-weight-bold text-h4 lxgw-wenkai-mono-tc-regular">{{ slide.title }}</h3>
-                  </v-row>
-                </v-img>
-              </v-carousel-item>
-            </v-carousel>
-          </div>
-        </v-col>
-      </v-row>
-    </v-sheet>
+                    前往
+                  </v-btn>
+                </v-container>
+              </template>
+            </v-img>
+          </v-carousel-item>
+        </v-carousel>
+      </div>
+    </v-col>
+  </v-row>
+</v-sheet>
+
     
     <v-sheet height="100vh">
       <v-row align="center" justify="center" class="text-center">
@@ -79,7 +93,7 @@
           <h2 class="text-h3 font-weight-bold mb-6 text-center lxgw-wenkai-mono-tc-bold">介紹影片</h2>
           <div class="video-wrapper">
             <iframe
-              src="https://www.youtube.com/embed/qR2zTcbmtkU?si=wjzhk3Kd_oMJjvIB"
+              src="https://www.youtube.com/embed/UvskgqT_YyU?si=sfYSsK89DcbM8jP9"
               title="K12EDU 介紹影片"
               frameborder="0"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -98,10 +112,10 @@ import { ref } from 'vue'
 
 // 路徑從 public 資料夾根目錄開始
 const slides = ref([
-  { src: '/service1.png', title: '數位學習教育遊戲' },
-  { src: '/service2.png', title: 'AI 學習助理' },
-  { src: '/service3.png', title: '教師管理網站' },
-  { src: '/service4.png', title: '線上程式解題網站' },
+  { src: '/service1.png', title: '數位學習教育遊戲', url: 'https://game.k12edu.uk' },
+  { src: '/service2.png', title: 'AI 學習助理', url: 'https://ai.k12edu.uk' },
+  { src: '/service3.png', title: '教師管理網站', url: 'https://teacher.k12edu.uk' },
+  { src: '/service4.png', title: '線上程式解題網站', url: 'https://judge.k12edu.uk' },
 ])
 </script>
 
