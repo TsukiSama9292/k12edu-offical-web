@@ -89,6 +89,6 @@ const items = {
 // 點擊時使用路由 path
 function navigate(path: string) {
   drawer.value = false
-  router.push(`/${path}`)
+  router.push(`/${path}/`)
 }
 </script>

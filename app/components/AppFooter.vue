@@ -37,7 +37,7 @@
       class="text-caption text-disabled"
       style="position: absolute; right: 16px;"
     >
-      &copy; 2024-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">K12EDU</span>
+      &copy; 2023-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">K12EDU</span>
     </div>
   </v-footer>
 </template>

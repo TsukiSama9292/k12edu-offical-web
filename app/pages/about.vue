@@ -1,6 +1,6 @@
 <!-- pages/about.vue -->
 <template>
-  <div v-if="$route.path === '/about'">
+  <div v-if="$route.path === '/about/'">
     <Card :title="pageTitle" :items="links" />
   </div>
   <NuxtPage v-else />
