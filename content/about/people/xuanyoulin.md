@@ -69,12 +69,12 @@ date: "2025-05-22"
 
 | 類別                       | 技能                                                             |
 | -------------------------- | ---------------------------------------------------------------- |
-| **程式語言**               | Python、Java、C++、JavaScript                                     |
-| **AI 與機器學習**          | LLM 微調、RAG、提示工程、PyTorch、Transformers                   |
-| **容器與自動化**           | Docker、Kubernetes（K3s、Rancher）、GitHub Actions               |
-| **伺服器與網路**           | Ubuntu、Proxmox VE、Rocky、Nginx、Cloudflare                      |
-| **網頁開發**               | Django（全端）、FastAPI（後端）、Vue.js（前端）                  |
-
+| **程式語言**               | Python、Java、C++、JavaScript                                      |
+| **AI 與機器學習**          | LLM 微調、RAG、提示工程、PyTorch、Transformers                        |
+| **容器與自動化**           | Docker、Kubernetes（K3s、Rancher）、GitHub Actions                    |
+| **伺服器與網路**           | Ubuntu、Proxmox VE、Rocky、Nginx、Cloudflare                         |
+| **網頁開發**               | Django（全端）、FastAPI（後端）、Nxut.js、Next.js(前端)                  |
+| **資料庫** | PostgreSQL, MySQL,MariaDB                                                         |
 
 ## 🏆 競賽紀錄
 
