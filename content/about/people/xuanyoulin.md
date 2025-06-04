@@ -80,8 +80,9 @@ date: "2025-05-22"
 
 | 年份 | 競賽名稱                                                                              | 角色         | 獎項／名次     |
 | ---- | ------------------------------------------------------------------------------------- | ------------ | -------------- |
-| 2025 | [宜蘭大學電機資訊學院專題研究成果競賽](https://raw.githubusercontent.com/TsukiSama9292/OpenData/refs/heads/main/images/Certificates_and_Diplomas/College_of_Electrical_Engineering_and_Computer_Science_Capstone_Project_Exhibition.png) | 隊長     | 第一名         |
-
+| 2025 | [國立宜蘭大學 - 電機資訊學院專題研究成果競賽](https://raw.githubusercontent.com/TsukiSama9292/OpenData/refs/heads/main/images/Certificates_and_Diplomas/College_of_Electrical_Engineering_and_Computer_Science_Capstone_Project_Exhibition.png) | 隊長     | 第一名         |
+| 2025 | 國立宜蘭大學 - 資訊工程學系專題研究成果競賽 | 隊長 | 第二名 |
+| 2025 | 國立宜蘭大學 - 2025程式設計暨資訊及AI應用競賽 | 隊長 | 優點 |
 
 ## 💡 興趣  
 + 🎯 代理式 AI  
