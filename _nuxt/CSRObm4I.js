@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{c as o,o as t}from"./BXEM3Pr7.js";const c={};function r(n,s){return t(),o("div",null," Prodcuts Page Content ")}const f=e(c,[["render",r]]);export{f as default};
